@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive sites have multiple layouts waiting to load based on the device. It is usually associated with a longer load time. Responsive websites, on the other hand, will shrink or expand automatically. These seem to be better suited for accessibility due to an individuals needs to zoom in or out of the site's page.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile-first is simply starting your site/app's design with the top priority on the Mobile end. In this approach, the desktop version is the "lesser" version. Mobile-first media queries use a min-width CSS style. 
+
+Desktop-first's priority is on the desktop version, first and foremost. Tablets and mobile phones are secondary designs. Media queries use max-width in CSS.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Since the default font size is 16px, adjusting it to 62.5% in our CSS file simplifies the math needed to convert pixels to rem. For example, if I wanted an h2 header to equate to 48px, all I would have to say is 4.8rem instead.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing breaks up the CSS file into managable chunks while you work on it. As you save and commit, it gets added to the CSS. While using mixins in preprocessing, it gets translated into the full version in CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Escape is easily the favorite concept we've discussed. I still have trouble with parametric mixins. It hasn't clicked with me yet and it makes me nervous about this project that I'm about to start.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
