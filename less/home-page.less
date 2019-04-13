@@ -2,6 +2,8 @@
 
 .home {
 
+  
+
   .intro {
 
     h2 {
@@ -13,7 +15,12 @@
     }
 
     img {
+      width: 100%;
       border-radius: 6px;
+    }
+
+    @media @phone {
+      width: 100%;
     }
   
   }
@@ -28,6 +35,16 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media @phone {
+        width: 100%;
+      }
+    }
+
+    .sky, .launch {
+      @media @phone {
+        display: none;
+      }
     }
   }
 
@@ -62,8 +79,7 @@
       }
 
       .btn {
-        .button-creator(75px, 45px, #22283A, @porcelain, 1.8rem);
-        margin-bottom: 5px;
+        .button-creator(100px, 40px, #22283A, @porcelain, 1.8rem);
       }
     }
 
